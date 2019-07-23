@@ -7,7 +7,7 @@ useful docker command line
 
 根据ID停止容器：docker stop containerId
 
-通过镜像创建容器：docker run ubuntu:18.04     (ubuntu是REPOSITORY，18.04是TAG，创建后再启动和进入)
+通过镜像创建容器：docker run it ubuntu:18.04     (ubuntu是REPOSITORY，18.04是TAG，创建后再启动和进入)
 
 查看所有容器：docker ps -a
 
