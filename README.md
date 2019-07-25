@@ -21,6 +21,8 @@ useful docker command line
 
 进入容器：docker attach 4691dc97a72c       （后面是id）
 
+容器提交到镜像：docker commit <container_id> <image_name>
+
 镜像保存：sudo docker save [镜像REPOSITORY] -o /home/images.tar           (没有中括号)
 
 镜像载入：sudo docker load -i [镜像tar]                                   (没有中括号)
