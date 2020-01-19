@@ -52,4 +52,4 @@ docker目标文件夹 /usr/workspace
 
 (3) cathay/openpose:v1.0 docker镜像名字和tag
 
-(4) 载入dockre后的启动命令
+(4) /bin/bash 载入dockre后的启动命令
