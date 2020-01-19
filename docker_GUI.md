@@ -36,7 +36,7 @@ xhost +
 
 参考地址：[Docker_GUI](https://blog.csdn.net/ericcchen/article/details/79253416)
 
-##在本机亲测有效的命令：
+## 在本机亲测有效的命令：
 sudo nvidia-docker run -it -v /home/sean/workspace/docker/data:/usr/workspace -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE cathay/openpose:v1.0 /bin/bash
 
 其中：
