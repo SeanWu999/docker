@@ -43,7 +43,9 @@ sudo nvidia-docker run -it -v /home/sean/workspace/docker/data:/usr/workspace -v
 其中：
 
 (1) -v /home/sean/workspace/docker/data:/usr/workspace 
+
 宿主文件夹 /home/sean/workspace/docker/data 
+
 docker目标文件夹 /usr/workspace 
 
 (2) -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE 操作GUI命令
