@@ -15,7 +15,9 @@ docker常用命令
 
 停止所有容器：docker stop $(docker ps -a -q)
 
-删除所有容器：docker  rm $(docker ps -a -q)
+删除所有容器：docker rm $(docker ps -a -q)
+
+删除所有镜像: sudo docker rmi $(sudo docker images -q)
 
 启动容器：docker start 4691dc97a72c        （后面是id）
 
