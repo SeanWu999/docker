@@ -23,7 +23,7 @@ docker常用命令
 
 进入容器：docker attach 4691dc97a72c       （后面是id）
 
-容器提交到镜像：docker commit <container_id> <image_name>     e.g sudo docker commit -m "pet" -a "pet_classification" f00726cc9738 pet_classification:v1.3
+容器提交到镜像：docker commit <container_id> <image_name>    "e.g sudo docker commit -m "pet" -a "pet_classification" f00726cc9738 pet_classification:v1.3"
 
 镜像保存：sudo docker save [镜像REPOSITORY] -o /home/images.tar           (没有中括号)
 
